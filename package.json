@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
   "dependencies": {
+    "@vue-storefront/magento-api": "^2.3.0",
     "@vue-storefront/middleware": "^3.6.0",
     "dotenv": "^16.3.1",
     "express": "^4.17.1"
