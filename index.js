@@ -1,6 +1,7 @@
 import express from 'express';
 import { createServer } from '@vue-storefront/middleware';
 import '@vue-storefront/magento-api';
+import '@vue-storefront/magento-api/server';
 import config from './middleware.config.js';
 // const app = express();
 const app = await createServer({ integrations: config.integrations });
