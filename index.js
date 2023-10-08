@@ -1,5 +1,6 @@
 import express from 'express';
 import { createServer } from '@vue-storefront/middleware';
+import config from './middleware.config.js';
 const app = express();
 import product from './api/product.js';
 // const product = require("./api/product");
